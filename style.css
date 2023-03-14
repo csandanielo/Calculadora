@@ -1,0 +1,85 @@
+
+
+body {
+  align-items: center;
+  background: linear-gradient(45deg, #a7cfdf 0%,#32238a 100%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+
+
+.botao {
+  height: 50px;
+  width: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(31,31,31);
+  border: none;
+  margin: 4px;
+  color: #fff
+}
+
+.igual {
+  height: 50px;
+  width: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(221, 39, 39);
+  border: none;
+  margin: 4px;
+  color: #fff
+
+}
+
+.operador {
+  height: 50px;
+  width: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(151, 221, 39);
+  border: none;
+  margin: 4px;
+  color: #fff
+
+}
+
+.botao:hover{
+  background-color: gray;
+}
+
+.igual:hover, .operador:hover{
+  background-color: rgb(225, 236, 219);
+}
+
+.calculadora{
+  position: absolute;
+  background-color: rgb(0,0,0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  padding: 25px;
+}
+
+#resultado {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px;
+  width: 263px;
+  height: 40px;
+  margin: 6px;
+  font-size: 25px;
+  color: black;
+  text-align: center, right;
+}
