@@ -4,7 +4,7 @@ Desafio de conclusão módulo iniciante em progração - Plataforma Alura
 
 Instrutora : Rafaella Ballerini
 
-## Desafio final - JavaScript 
+## Desafio final (Dia 7) - JavaScript 
 
 Para o exercício de hoje: você já parou para pensar como uma calculadora funciona?
 
